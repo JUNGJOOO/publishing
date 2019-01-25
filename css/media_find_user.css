@@ -1,0 +1,54 @@
+@charset "utf-8";
+@media screen and (max-width:767px){
+	
+/* 768에서변함  360과정 */
+/*	#header{background-color: green !important}*/
+	.container{
+		width: 100%;
+	}
+	.wrap{
+		top: 130px;
+		width: 100%;
+		padding: 0 20px 60px 20px;
+	}
+	.wrap > div{
+		float: none;
+		width: 100%;
+		box-shadow: 0 1px 4px 0 #e5e9f2;
+		border-radius: 5px;
+	}
+	.pw_wrap{margin-top: 70px;}
+	h2{
+		top: -40px;
+		text-align: left;
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	
+/* 1024에서변함  768과정 */
+	
+/*	#header{background-color: blue !important;}*/
+	.wrap{width: 720px;}
+	.wrap > div{
+		width: 350px;
+		padding: 18px;
+	}
+	
+}
+
+@media screen and (min-width:1024px) and (max-width:1599px){
+	
+	/* 1600에서변함  1024과정 */
+	
+/*	#header{background-color: yellow !important}*/
+	.header_gnb{margin-right:25px;}
+/*공통내용끝*/
+}
+
+
+@media screen and (min-width:1600px) { /*기본*/
+
+}
